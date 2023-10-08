@@ -1,0 +1,45 @@
+.sidenav{
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
+    width: 20%;
+}
+
+.mainside {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    flex-direction: column;
+}
+
+.mainside > a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    color: #7A7A7A;
+    font-weight: 500;
+    padding: 0px 10px;
+    transition: 0.2s ease;
+}
+
+.mainside > a:hover {
+    background-color: #e2e2e2;
+}
+
+.mainside > a:hover > svg > path, .mainside > a:hover > p{
+    fill: #042391;
+    color: #042391;
+}

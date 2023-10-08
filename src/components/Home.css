@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    height: 90vh;
+    overflow-y: scroll;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}

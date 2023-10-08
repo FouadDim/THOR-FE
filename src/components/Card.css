@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+.card {
+  box-sizing: border-box;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #dddddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.para {
+  display: flex;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.two > p {
+  margin: 0;
+  padding: 7px 0px;
+  font-size: 14px;
+  color: #888888;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card2 > button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #042390;
+  cursor: pointer;
+}
+
+.one > h1 {
+  margin: 0;
+  color: #042390;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+}
+
+.three > p {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #646464;
+  padding-top: 15px;
+}
+
+.card1 {
+  width: 85%;
+}
+
+.card2 {
+  width: 15%;
+}
+
+#h1a{
+  text-decoration: none;
+  color: #042390;
+}
+
+#h1a:hover {
+  text-decoration: underline;
+}

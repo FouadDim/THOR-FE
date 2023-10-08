@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+.opensourceall{
+    height: 90vh;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+
+.open{
+    border: 1px solid rgb(201, 201, 201);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.oneops{
+    width: 85%;
+}
+
+.twoops {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twoops > button {
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,38 @@
+.nav{
+    width: 100vw;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 30px;
+    box-shadow: 3px 0px 10px #d5d5d5;
+    background-color: #fff;
+}
+
+.nav1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.nav-btn:hover > svg > path {
+    transition: 0.2s ease;
+    fill: #042391;
+}
+
+.nav3{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
